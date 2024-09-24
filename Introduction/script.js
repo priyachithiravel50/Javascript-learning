@@ -31,3 +31,8 @@ Bitwise Operators: & | ~  << >>  >>>
 
  let a = prompt("Enter a number")
  console.log(Number(a)+10)
+
+
+ //Functions
+ //Data type
+ //

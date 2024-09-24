@@ -32,7 +32,7 @@ Bitwise Operators: & | ~  << >>  >>>
  let a = prompt("Enter a number")
  console.log(Number(a)+10)
 
-
+//Learning:
  //Functions
- //Data type
+ //Data types
  //

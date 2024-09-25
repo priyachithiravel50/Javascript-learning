@@ -36,3 +36,15 @@ Bitwise Operators: & | ~  << >>  >>>
  //Functions
  //Data types
  //
+
+
+ //loops
+ //console.log('hello)
+ //console.log('hello)
+ //console.log('hello)
+ //console.log('hello)
+ //console.log('hello)
+        
+ //for, while, do-while
+
+ 

@@ -45,69 +45,109 @@ switch (grade){
        console.log("Unknown Grade")
 }
 
-// For loop
-// for(count=1;count<=5;count=count+1)
-// {
-//     console.log("John")
-// }
+//For loop
+for(count=1;count<=5;count=count+1)
+{
+    console.log("John")
+}
 
-// for(count=1;count<=10;count=count+1)
-// {
-//     console.log("count")
-// }
+for(count=1;count<=10;count=count+1)
+{
+    console.log("count")
+}
 
-// for(let i=1;i<=5;i++){
-//     console.log("hello")
-//    }
+for(let i=1;i<=5;i++){
+    console.log("hello")
+   }
 
-// let i
-// for( i=1;i<=5;i++){
-//     console.log(i)
-//    }
+let i
+for( i=1;i<=5;i++){
+    console.log(i)
+   }
 
-//    console.log('outside loop',i)
+   console.log('outside loop',i)
     
-//     //print 10 to 1
-//     for(i=10;i>=1;i--)
-//       console.log(i)
+    //print 10 to 1
+    for(i=10;i>=1;i--)
+      console.log(i)
     
-//     i=10
-//     while(i>=1){
-//         console.log(i)
-//         i--;
-//     }
+    i=10
+    while(i>=1){
+        console.log(i)
+        i--;
+    }
 
-//     console.log('outside loop', i)
+    console.log('outside loop', i)
     
-//     console.log('do while loop')
-//     i=10
-//     do{
-//         console.log(i)
-//         i--;
-//     }while(i>=1)
+    console.log('do while loop')
+    i=10
+    do{
+        console.log(i)
+        i--;
+    }while(i>=1)
 
-// //break - stop the loop
+//break - stop the loop
 
-// while(true){
-//     let num = Number(prompt('enter a number'))
-//     if(!isNaN(num))
-//     break;
+while(true){
+    let num = Number(prompt('enter a number'))
+    if(!isNaN(num))
+    break;
 
-// }
+}
     
-// console.log('continue demo')
-// //continue - skips the current iteration
-// for(i=1;i<=10;i++){
-//     console.log(i)
-//     if(i%3==0)
-//     continue
-// }
+console.log('continue demo')
+//continue - skips the current iteration
+for(i=1;i<=10;i++){
+    console.log(i)
+    if(i%3==0)
+    continue
+}
 
-//string
+//Arrays 
 
-let str1 = "Strive not to be a success"
-let str2 = "but rather to be a value"
+let marks = [23,58,56,89]
+console.log(marks.length)
 
-    
-    
-</script>
+console.log(marks[1])
+
+//last element
+console.log(marks[marks.length-1])
+
+//max of int and string
+let arr = [5,3,4,8,'a',"abc",[3,4]]
+console.log(arr[6])
+
+//matrix
+let matrix = [[3,4,5],[7,5,3],[2,8,6]]
+console.log(matrix[0][2])
+
+//Array methods
+let array = ['a','b','c','d','e']
+
+//Add the last element
+console.log(array.push('f'))
+
+//remove the last element
+console.log(array.pop())
+
+//shift method
+console.log(array.shift('a'))
+
+//unshift
+console.log(array.unshift('a'))
+
+//Deleting using splice
+array.splice(2,1)
+console.log(array)
+
+//Replace using splice
+array.splice(1,1,'m')
+console.log(array)
+
+//Reverse
+array.reverse()
+console.log(array)
+
+//Join method
+let str = arr.join()
+console.log(str)

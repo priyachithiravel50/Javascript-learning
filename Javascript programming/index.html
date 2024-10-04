@@ -151,3 +151,80 @@ console.log(array)
 //Join method
 let str = arr.join()
 console.log(str)
+
+
+// Create an Object:
+const person = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 50,
+    eyeColor: "blue"
+  }
+
+  console.log(person)
+
+
+//Functions
+
+
+//Hoisting
+function sayHello(){
+    console.log('hello')
+}
+sayHello()
+
+ //function expression
+
+ let a = 100
+
+ let isEven = function(num){
+    return num%2==0
+
+ }
+ console.log(isEven(5))
+ console.log(isEven)
+
+ letarr = [2, 3, 4, 5, 6, 10]
+ let findSum = function(arr){
+    let sum = 0
+    for(let val of arr){
+        sum += val
+    }
+    return sum
+ }
+
+ console.log(findSum(arr))
+
+ letvolume = function(l,b,h){
+    return l*b*h
+ }
+
+ //arrow function 
+ let volume = (l,b,h) => {return l*b*h}
+ console.log(volume(7,8,9))
+
+ let sumofArr = (arr) =>{
+    let sum = 0
+    for(let val of arr){
+        sum += val
+    }
+    return sum
+ }
+ console.log(sumOfArr(arr))
+
+
+ //area of circle
+ let area = r => Math.PI*r*r 
+ console.log(area(5))
+
+ //variable arguments
+
+ function sum(...numbers) {
+    let total = 0;
+    for (let number of numbers) {
+        total += number;
+    }
+    return total;
+}
+
+console.log(sum(1, 2, 3, 4));  // Output: 10
